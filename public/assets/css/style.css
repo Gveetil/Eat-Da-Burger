@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(#ffbd59, #c77b3d);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.burger-image{
+    max-width: 8rem;
+    max-height: 8rem;
+}
+
+.title{
+    color:firebrick;
+}
+
+.new-burger-name{
+    max-width: 30rem;
+}
+
+.burger-heading{
+    color: darkslategray;
+}
+
+.burger-undevoured textarea {
+    resize: none;
+}
+
+.burger-devoured input {
+    color: darkgrey;
+}
+
+.burger-undevoured button {
+    background-color: seagreen;
+}
+
+.modal-content{
+    border:none;
+}
+
+.modal-header{
+    background-color:#ffbd59;
+}
+
+.modal-dialog-cancel{
+    background-color:saddlebrown;
+}
+
+.create-footer{
+    color: darkslategray;
+    font-weight: 600;
+}
