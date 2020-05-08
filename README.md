@@ -12,10 +12,23 @@ Deployed Application: [Eat-Da-Burger](https://gveetil-eat-da-burger.herokuapp.co
 
 ## Table of Contents 
 
+- [Features](#features)
 - [Installation Instructions](#installation-instructions)
 - [Usage Guidelines](#usage-guidelines)
 
-<br><br>
+<br>
+
+## Features
+### Full Stack 
+The front end of this application is built using Bootstrap component library along with JQuery and is rendered using the Express Handlebars templating engine. 
+The back end of this application uses Node.js with Express as the server and MySQL as the database. This makes it a full stack application having both front and back end components.
+
+### MVC 
+This application follows the Model View Controller(MVC) architectural pattern. Using the MVC pattern helps modularize the application by separating the user interface, the business logic, and the data access logic into different components. This in turn increases flexibility, maintainability and scalability of the application.
+
+### Responsive Web Design 
+This application is built using Responsive web design principles. Responsive web design provides better accessibility and an optimal viewing experience to the user, by ensuring that web pages render well on different devices and window / screen sizes. To achieve this, I have used the Bootstrap front-end component library to build my pages. 
+
 
 ## Installation Instructions
 
