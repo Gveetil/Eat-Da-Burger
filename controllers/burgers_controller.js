@@ -45,7 +45,7 @@ async function updateBurger(request, response) {
 
         if (result.changedRows === 0) {
             // Invalid data 
-            return response.status(404).send('Burger not updated - Please refresh your data.');
+            return response.status(404).send('Burger could not be updated - Please refresh your data.');
         }
 
         return response.status(200).end();
@@ -64,7 +64,7 @@ async function deleteBurger(request, response) {
 
         if (result.affectedRows === 0) {
             // Invalid ID 
-            return response.status(404).send('Burger not deleted - Please refresh your data.');
+            return response.status(404).send('Burger does not exist - Please refresh your data.');
         }
 
         return response.status(200).end();
