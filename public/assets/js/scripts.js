@@ -12,6 +12,7 @@ $(document).ready(function () {
             showModalDialog("Please enter a burger name!");
             return;
         };
+        $(".new-burger-name").val("");
 
         // Save
         const newBurger = {
